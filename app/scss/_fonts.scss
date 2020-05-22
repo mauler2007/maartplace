@@ -1,0 +1,81 @@
+@font-face {
+    font-family: 'Quicksand-Regular', sans-serif;
+    src: url('../fonts/Quicksand-Regular.woff2') format('woff2'),
+         url('../fonts/Quicksand-Regular.woff') format('woff'), 
+         url('../fonts/Quicksand-Regular.ttf') format('truetype'); 
+    font-weight: 400;
+    font-display: swap;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Quicksand-Medium', sans-serif;
+    src: url('../fonts/Quicksand-Medium.woff2') format('woff2'),
+         url('../fonts/Quicksand-Medium.woff') format('woff'); 
+    font-weight: 500;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Quicksand-Bold', sans-serif;
+    src: url('../fonts/Quicksand-Medium.woff2') format('woff2');
+    font-weight: 500;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Quicksand-Bold', sans-serif;
+    src: url('../fonts/Quicksand-Bold.woff2') format('woff2'),
+         url('../fonts/Quicksand-Bold.woff') format('woff'); 
+    font-weight: 700;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'icomoon';
+    src:  url('../fonts/icomoon.eot?h3nsjr');
+    src:  url('../fonts/icomoon.eot?h3nsjr#iefix') format('embedded-opentype'),
+      url('../fonts/icomoon.ttf?h3nsjr') format('truetype'),
+      url('../fonts/icomoon.woff?h3nsjr') format('woff'),
+      url('../fonts/icomoon.svg?h3nsjr#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+  }
+  
+  [class^="icon-"], [class*=" icon-"] {
+    /* use !important to prevent issues with browser extensions that change fonts */
+    font-family: 'icomoon' !important;
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+  
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  
+  .icon-chevron-right-outline:before {
+    content: "\e900";
+  }
+  .icon-chevron-left-outline:before {
+    content: "\e901";
+  }
+  .icon-heart-outline:before {
+    content: "\e902";
+  }
+  .icon-envelope-o:before {
+    content: "\e903";
+  }
+  .icon-cart:before {
+    content: "\e93a";
+  }
+  .icon-bell:before {
+    content: "\e951";
+  }
+  .icon-search:before {
+    content: "\e986";
+  }
+  

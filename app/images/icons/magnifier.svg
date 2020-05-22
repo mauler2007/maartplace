@@ -1,0 +1,26 @@
+<svg id="Notification" xmlns="http://www.w3.org/2000/svg" width="39" height="36" viewBox="0 0 39 36">
+  <defs>
+    <style>
+      .cls-1 {
+        font-size: 20px;
+        fill: #7e8fa1;
+        font-family: Linearicons-Free, Linearicons;
+      }
+
+      .cls-2 {
+        fill: #ff6a6c;
+      }
+
+      .cls-3 {
+        font-size: 14px;
+        fill: #fff;
+        font-family: Quicksand;
+        font-weight: 500;
+        text-transform: uppercase;
+      }
+    </style>
+  </defs>
+  <text id="alarm" class="cls-1" x="-1" y="35">alarm</text>
+  <rect class="cls-2" x="7" width="26" height="22" rx="11" ry="11"/>
+  <text id="_25" data-name="25" class="cls-3" x="24" y="18">25</text>
+</svg>
