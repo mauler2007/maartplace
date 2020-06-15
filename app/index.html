@@ -5,7 +5,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Maartplace HW10</title>
-    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;500;700&display=swap" rel="stylesheet">   
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.linearicons.com/free/1.0.0/icon-font.min.css">
+    <link rel="stylesheet" href="css/slick.css">
     <link rel="stylesheet" href="css/libs.min.css">
     <link rel="stylesheet" href="css/style.min.css">
 </head>
@@ -30,17 +32,18 @@
                         </a>
 
                         <div class="header__user-box">
-                            <a class="header__user-ring" href="#"><span class="icon-bell"></span></a>
-                            <a class="header__user-mail" href="#"><span class="icon-envelope-o"></span></a>
-                            <a class="header__user-basket" href="#"><span class="icon-cart"></span></a>
+                            <a class="header__user-ring" href="#"><span class="lnr lnr-alarm"></span></a>
+                            <a class="header__user-mail" href="#"><span class="lnr lnr-envelope"></span></a>
+                            <a class="header__user-basket" href="#"><span class="lnr lnr-cart"></span></a>
                         </div>
 
-                        <div class="header__profile">
+                        <a href="#" class="header__profile">
                             <div class="header__profile-img"></div>
                             <div class="header__profile-text">
-                                Taofiq Hakim <span>$20.45</span>
+                                Taofiq Hakim <span class="header__profile-summ">$20.45</span>
                             </div>
-                        </div>
+                        </a>
+
                     </div>
                 </div>
             </div>
@@ -58,21 +61,1128 @@
                             <li><a href="#">Pages</a></li>
                         </ul>
                     </nav>
+
                     <div class="header__form">
                         <form>
                             <input type="text" placeholder="Search product here...">
-                            <button type="submit">
-                                <img src="images/icons/" alt="">
-                            </button>
+                            <button type="search"><span class="lnr lnr-magnifier"></span></button>
                         </form>
                     </div>
+
                 </div>
             </div>
         </div>
     </header>
 
+    <section class="create">
+        <div class="container">
+            <div class="create__inner">
+                <div class="create__title">
+                    Create Your Own<span>Digital Product Marketplace </span>
+
+                </div>
+                
+                <div class="create__advantage">
+
+                </div>
+                <div class="create__box">
+                    <a href="#" class="create__box-btn create__box-btn--active">View All Products</a>
+                    <a href="#" class="create__box-btn">Popular Products</a>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <section class="form-search">
+        <div class="container">
+            <div class="test">
+                <div class="layer1"></div>
+                <div class="layer2"></div>
+                <div class="form__inner">
+                    <div class="form__form">
+                        <form>
+                            <input type="text" placeholder="search your products...">
+                            <div class="categories">All Categories</div>
+                            <button type="submit">Search Now</button>
+                        </form>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="advantages">
+        <div class="container">
+            <div class="advantages__inner">
+
+                <div class="advantages__reason">
+                    <div class="advantages__reason-img"><img src="images/reason1.png" alt="reason-img"></div>
+                    <div class="advantages__reason-title">Best UX Research</div>
+                    <div class="advantages__reason-text">Nunc placerat mi id nisi interdum mollis. Praesent pharetra,
+                        justo ut scelerisque
+                        the mattis, leo quam aliquet diam
+                        congue is laoreet elit metus.
+                    </div>
+                </div>
+
+                <div class="advantages__reason">
+                    <div class="advantages__reason-img"><img src="images/reason1.png" alt="reason-img"></div>
+                    <div class="advantages__reason-title">Fully Responsive</div>
+                    <div class="advantages__reason-text">Nunc placerat mi id nisi interdum mollis. Praesent pharetra,
+                        justo ut scelerisque
+                        the mattis, leo quam aliquet diam
+                        congue is laoreet elit metus.
+                    </div>
+                </div>
+
+                <div class="advantages__reason">
+                    <div class="advantages__reason-img"><img src="images/reason1.png" alt="reason-img"></div>
+                    <div class="advantages__reason-title">Buy & Sell Easily</div>
+                    <div class="advantages__reason-text">Nunc placerat mi id nisi interdum mollis. Praesent pharetra,
+                        justo ut scelerisque
+                        the mattis, leo quam aliquet diam
+                        congue is laoreet elit metus.
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="product-slider">
+        <div class="container">
+            <div class="slider__inner">
+                <div class="slider__title title">
+                    <div class="slider__title-text">Weekly Featured Products</div>
+                    <div class="slider__title-oval"></div>
+                </div>
+                <div class="slider__box">
+                    <div class="slider__items">
+                        <div class="slider__item">
+                            <a class="slider__item-image" href="#"
+                                style="background-image: url(images/content/product-foto.jpg);">
+                            </a>
+                            <div class="slider__data">
+                                <div class="slider__data-title">One Page Resume Template</div>
+                                <div class="slider__data-subtitle">
+                                    <a class="slider__data-name" href="#">AazzTech</a>
+                                    <a class="slider__data-thema" href="#">WordPress</a>
+                                </div>
+                                <div class="slider__data-text">
+                                    Nunc placerat mi id nisi interdum mollis. Praesent pharetra, justo ut scelerisque
+                                    the
+                                    mattis, leo quam aliquet congue placerat mi id nisi interdum mollis. Praesent
+                                    pharetra,
+                                    justo ut scelerisque the mattis, leo quam aliquet congue justo ut scelerisque.
+                                </div>
+                                <div class="slider__data-links">
+                                    <a class="slider__data-link" href="#">website</a>
+                                    <a class="slider__data-link" href="#">plugin</a>
+                                    <a class="slider__data-link" href="#">landing page</a>
+                                </div>
+                                <div class="slider__data-statistic">
+                                    <div class="slider__data-data">
+                                        <div class="slider__data-price">$10 - $50</div>
+                                        <div class="slider__data-likes">46</div>
+                                        <a class="slider__data-basket" href="#">634</a>
+                                    </div>
+                                    <div class="slider__data-rating"></div>
+                                </div>
+
+                            </div>
+                        </div>
+
+
+                    </div>
+                    <div class="slider__items">
+                        <div class="slider__item">
+                            <a class="slider__item-image" href="#"
+                                style="background-image: url(images/content/product-foto.jpg);">
+
+                            </a>
+                            <div class="slider__data">
+                                <div class="slider__data-title">One Page Resume Template</div>
+                                <div class="slider__data-subtitle">
+                                    <a class="slider__data-name" href="#">AazzTech</a>
+                                    <a class="slider__data-thema" href="#">WordPress</a>
+                                </div>
+                                <div class="slider__data-text">
+                                    Nunc placerat mi id nisi interdum mollis. Praesent pharetra, justo ut scelerisque
+                                    the
+                                    mattis, leo quam aliquet congue placerat mi id nisi interdum mollis. Praesent
+                                    pharetra,
+                                    justo ut scelerisque the mattis, leo quam aliquet congue justo ut scelerisque.
+                                </div>
+                                <div class="slider__data-links">
+                                    <a class="slider__data-link" href="#">website</a>
+                                    <a class="slider__data-link" href="#">plugin</a>
+                                    <a class="slider__data-link" href="#">landing page</a>
+                                </div>
+                                <div class="slider__data-statistic">
+                                    <div class="slider__data-data">
+                                        <div class="slider__data-price">$10 - $50</div>
+                                        <div class="slider__data-likes">46</div>
+                                        <div class="slider__data-basket">634</div>
+                                    </div>
+                                    <div class="slider__data-rating"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="products">
+        <div class="container">
+            <div class="products__inner">
+                <div class="products__inner-title">
+                    Newest Release Products
+
+                </div>
+                <div class="products__inner-btn">
+                    <button type="button" data-filter=".category-shoes">shoes</button>
+                    <button type="button" data-filter=".category-plugin">WordPress</button>
+                    <button type="button" data-filter=".category-wear">Wear</button>
+                    <button type="button" data-filter=".category-design">Design </button>
+                    <button type="button" data-filter=".category-joomla">Joomla</button>
+                    <button type="button" data-filter=".category-UI">User Interface</button>
+                    <button type="button" data-filter=".category-Landing">Landing Page</button>
+                    <button type="button" data-filter="all">All</button>
+                </div>
+                <div class="products__inner-box">
+                    <div class="product__item mix category-shoes category-joomla " data-order="1">
+                        <div class="product__item-img" style="background-image: url(images/content/shoes.jpg);">
+                            <div class="product__item-btn">
+                                <a class="product__item-link" href="#">More info</a>
+                                <a class="product__item-link" href="#">Live Demo</a>
+                            </div>
+                        </div>
+                        <div class="product__item-content">
+                            <div class="product__item-title">E-commerce Shopping Cart</div>
+                            <div class="product__item-type">
+                                <a class="product__item-name" href="#">Villy</a>
+                                <a class="product__item-class" href="#">Shoes</a>
+                            </div>
+                            <p class="product__item-text">
+                                Nunc placerat mi erdum mollis. Praesent pharetra, justo ut scelerisque
+                                the mattis, leo quam aliquet congue.
+                            </p>
+                        </div>
+                        <div class="product__item-info">
+
+                            <div class="product__item-price">
+                                <div class="product__item-money">
+                                    $20
+                                </div>
+                                <div class="product__item-likes">
+                                    <span class="lnr lnr-heart"></span>90
+                                </div>
+                            </div>
+                            <div class="product__item-basket">246</div>
+                        </div>
+
+                    </div>
+
+                    <div class="product__item mix category-plugin" data-order="2">
+                        <div class="product__item-img" style="background-image: url(images/content/wp.jpg);">
+                            <div class="product__item-btn">
+                                <a class="product__item-link" href="#">More info</a>
+                                <a class="product__item-link" href="#">Live Demo</a>
+                            </div>
+                        </div>
+                        <div class="product__item-content">
+                            <div class="product__item-title">E-commerce Shopping Cart</div>
+                            <div class="product__item-type">
+                                <a class="product__item-name" href="#">Theme-Valley</a>
+                                <a class="product__item-class" href="#">Plugin</a>
+                            </div>
+                            <p class="product__item-text">
+                                Nunc placerat mi erdum mollis. Praesent pharetra, justo ut scelerisque
+                                the mattis, leo quam aliquet congue.
+                            </p>
+                        </div>
+                        <div class="product__item-info">
+
+                            <div class="product__item-price">
+                                <div class="product__item-money">
+                                    $20
+                                </div>
+                                <div class="product__item-likes">
+                                    <span class="lnr lnr-heart"></span>90
+                                </div>
+                            </div>
+                            <div class="product__item-basket">246</div>
+                        </div>
+
+                    </div>
+
+                    <div class="product__item mix category-shoes  category-UI" data-order="3">
+                        <div class="product__item-img" style="background-image: url(images/content/shoes.jpg);">
+                            <div class="product__item-btn">
+                                <a class="product__item-link" href="#">More info</a>
+                                <a class="product__item-link" href="#">Live Demo</a>
+                            </div>
+                        </div>
+                        <div class="product__item-content">
+                            <div class="product__item-title">E-commerce Shopping Cart</div>
+                            <div class="product__item-type">
+                                <a class="product__item-name" href="#">Theme-Valley</a>
+                                <a class="product__item-class" href="#">Shoes</a>
+                            </div>
+                            <p class="product__item-text">
+                                Nunc placerat mi erdum mollis. Praesent pharetra, justo ut scelerisque
+                                the mattis, leo quam aliquet congue.
+                            </p>
+                        </div>
+                        <div class="product__item-info">
+
+                            <div class="product__item-price">
+                                <div class="product__item-money">
+                                    $20
+                                </div>
+                                <div class="product__item-likes">
+                                    <span class="lnr lnr-heart"></span>90
+                                </div>
+                            </div>
+                            <div class="product__item-basket">246</div>
+                        </div>
+
+                    </div>
+
+                    <div class="product__item mix category-wear" data-order="4">
+                        <div class="product__item-img" style="background-image: url(images/content/wear.jpg);">
+                            <div class="product__item-btn">
+                                <a class="product__item-link" href="#">More info</a>
+                                <a class="product__item-link" href="#">Live Demo</a>
+                            </div>
+                        </div>
+                        <div class="product__item-content">
+                            <div class="product__item-title">E-commerce Shopping Cart</div>
+                            <div class="product__item-type">
+                                <a class="product__item-name" href="#">Theme-Valley</a>
+                                <a class="product__item-class" href="#">Wear</a>
+                            </div>
+                            <p class="product__item-text">
+                                Nunc placerat mi erdum mollis. Praesent pharetra, justo ut scelerisque
+                                the mattis, leo quam aliquet congue.
+                            </p>
+                        </div>
+                        <div class="product__item-info">
+
+                            <div class="product__item-price">
+                                <div class="product__item-money">
+                                    $20
+                                </div>
+                                <div class="product__item-likes">
+                                    <span class="lnr lnr-heart"></span>90
+                                </div>
+                            </div>
+                            <div class="product__item-basket">246</div>
+                        </div>
+
+                    </div>
+
+                    <div class="product__item mix category-shoes " data-order="5">
+                        <div class="product__item-img" style="background-image: url(images/content/shoes2.jpg);">
+                            <div class="product__item-btn">
+                                <a class="product__item-link" href="#">More info</a>
+                                <a class="product__item-link" href="#">Live Demo</a>
+                            </div>
+                        </div>
+                        <div class="product__item-content">
+                            <div class="product__item-title">E-commerce Shopping Cart</div>
+                            <div class="product__item-type">
+                                <a class="product__item-name" href="#">Theme-Valley</a>
+                                <a class="product__item-class" href="#">shoes</a>
+                            </div>
+                            <p class="product__item-text">
+                                Nunc placerat mi erdum mollis. Praesent pharetra, justo ut scelerisque
+                                the mattis, leo quam aliquet congue.
+                            </p>
+                        </div>
+                        <div class="product__item-info">
+
+                            <div class="product__item-price">
+                                <div class="product__item-money">
+                                    $20
+                                </div>
+                                <div class="product__item-likes">
+                                    <span class="lnr lnr-heart"></span>90
+                                </div>
+                            </div>
+                            <div class="product__item-basket">246</div>
+                        </div>
+
+                    </div>
+
+                    <div class="product__item mix category-design category-Landing" data-order="6">
+                        <div class="product__item-img" style="background-image: url(images/content/design.jpg);">
+                            <div class="product__item-btn">
+                                <a class="product__item-link" href="#">More info</a>
+                                <a class="product__item-link" href="#">Live Demo</a>
+                            </div>
+                        </div>
+                        <div class="product__item-content">
+                            <div class="product__item-title">E-commerce Shopping Cart</div>
+                            <div class="product__item-type">
+                                <a class="product__item-name" href="#">Theme-Valley</a>
+                                <a class="product__item-class" href="#">design</a>
+                            </div>
+                            <p class="product__item-text">
+                                Nunc placerat mi erdum mollis. Praesent pharetra, justo ut scelerisque
+                                the mattis, leo quam aliquet congue.
+                            </p>
+                        </div>
+                        <div class="product__item-info">
+
+                            <div class="product__item-price">
+                                <div class="product__item-money">
+                                    $20
+                                </div>
+                                <div class="product__item-likes">
+                                    <span class="lnr lnr-heart"></span>90
+                                </div>
+                            </div>
+                            <div class="product__item-basket">246</div>
+                        </div>
+
+                    </div>
+
+                    <div class="product__item mix category-design category-new" data-order="7">
+                        <div class="product__item-img" style="background-image: url(images/content/design2.jpg);">
+                            <div class="product__item-btn">
+                                <a class="product__item-link" href="#">More info</a>
+                                <a class="product__item-link" href="#">Live Demo</a>
+                            </div>
+                        </div>
+                        <div class="product__item-content">
+                            <div class="product__item-title">E-commerce Shopping Cart</div>
+                            <div class="product__item-type">
+                                <a class="product__item-name" href="#">Theme-Valley</a>
+                                <a class="product__item-class" href="#">Design</a>
+                            </div>
+                            <p class="product__item-text">
+                                Nunc placerat mi erdum mollis. Praesent pharetra, justo ut scelerisque
+                                the mattis, leo quam aliquet congue.
+                            </p>
+                        </div>
+                        <div class="product__item-info">
+
+                            <div class="product__item-price">
+                                <div class="product__item-money">
+                                    $20
+                                </div>
+                                <div class="product__item-likes">
+                                    <span class="lnr lnr-heart"></span>90
+                                </div>
+                            </div>
+                            <div class="product__item-basket">246</div>
+                        </div>
+
+                    </div>
+
+                    <div class="product__item mix category-design category-new" data-order="8">
+                        <div class="product__item-img" style="background-image: url(images/content/design3.jpg);">
+                            <div class="product__item-btn">
+                                <a class="product__item-link" href="#">More info</a>
+                                <a class="product__item-link" href="#">Live Demo</a>
+                            </div>
+                        </div>
+                        <div class="product__item-content">
+                            <div class="product__item-title">E-commerce Shopping Cart</div>
+                            <div class="product__item-type">
+                                <a class="product__item-name" href="#">Theme-Valley</a>
+                                <a class="product__item-class" href="#">Design</a>
+                            </div>
+                            <p class="product__item-text">
+                                Nunc placerat mi erdum mollis. Praesent pharetra, justo ut scelerisque
+                                the mattis, leo quam aliquet congue.
+                            </p>
+                        </div>
+                        <div class="product__item-info">
+
+                            <div class="product__item-price">
+                                <div class="product__item-money">
+                                    $20
+                                </div>
+                                <div class="product__item-likes">
+                                    <span class="lnr lnr-heart"></span>90
+                                </div>
+                            </div>
+                            <div class="product__item-basket">246</div>
+                        </div>
+
+                    </div>
+                </div>
+                <button class="products__inner-link" type="button" data-filter=".category-new">All New Products</button>
+            </div>
+        </div>
+    </section>
+    <section class="feed-slider">
+        <div class="container">
+            <div class="feed-slider__inner">
+                <div class="feed-slider__title title">
+                    <div class="feed-slider__title-text">Your Followers Feed</div>
+                    <div class="feed-slider__title-oval"></div>
+                </div>
+                <div class="feed-slider__box">
+                    <div class="feed-slider__items">
+                        <div class="feed-slider__item ">
+                            <div>
+                                <div class="feed-slider__item-img"
+                                    style="background-image: url(images/content/picture.jpg);">
+                                </div>
+                            </div>
+                            <div class="feed-slider__item-content">
+                                <div class="feed-slider__item-title">E-commerce Shopping Cart</div>
+                                <div class="feed-slider__item-type">
+                                    <a class="feed-slider__item-name" href="#">Theme-Valley</a>
+                                    <a class="feed-slider__item-class" href="#">Plugin</a>
+                                </div>
+                                <p class="feed-slider__item-text">
+                                    Nunc placerat mi erdum mollis. Praesent pharetra, justo ut scelerisque
+                                    the mattis, leo quam aliquet congue.
+                                </p>
+                            </div>
+                            <div class="feed-slider__item-info">
+
+                                <div class="feed-slider__item-price">
+                                    <div class="feed-slider__item-money">
+                                        $20
+                                    </div>
+                                    <div class="feed-slider__item-likes">
+                                        <span class="lnr lnr-heart"></span>90
+                                    </div>
+                                    <div class="feed-slider__item-rating"></div>
+                                </div>
+                                <div class="feed-slider__item-basket">246</div>
+                            </div>
+
+                        </div>
+
+                        <div class="feed-slider__item ">
+                            <DIV>
+                                <div class="feed-slider__item-img"
+                                    style="background-image: url(images/content/picture.jpg);">
+
+                                </div>
+                            </DIV>
+                            <div class="feed-slider__item-content">
+                                <div class="feed-slider__item-title">E-commerce Shopping Cart</div>
+                                <div class="feed-slider__item-type">
+                                    <a class="feed-slider__item-name" href="#">Theme-Valley</a>
+                                    <a class="feed-slider__item-class" href="#">Plugin</a>
+                                </div>
+                                <p class="feed-slider__item-text">
+                                    Nunc placerat mi erdum mollis. Praesent pharetra, justo ut scelerisque
+                                    the mattis, leo quam aliquet congue.
+                                </p>
+                            </div>
+                            <div class="feed-slider__item-info">
+
+                                <div class="feed-slider__item-price">
+                                    <div class="feed-slider__item-money">
+                                        $20
+                                    </div>
+                                    <div class="feed-slider__item-likes">
+                                        <span class="lnr lnr-heart"></span>90
+                                    </div>
+                                    <!-- <div class="feed-slider__item-rating"></div> -->
+                                </div>
+                                <div class="feed-slider__item-basket">246</div>
+                            </div>
+
+                        </div>
+
+                        <div class="feed-slider__item ">
+                            <div>
+                                <div class="feed-slider__item-img"
+                                    style="background-image: url(images/content/picture.jpg);">
+
+                                </div>
+                            </div>
+                            <div class="feed-slider__item-content">
+                                <div class="feed-slider__item-title">E-commerce Shopping Cart</div>
+                                <div class="feed-slider__item-type">
+                                    <a class="feed-slider__item-name" href="#">Theme-Valley</a>
+                                    <a class="feed-slider__item-class" href="#">Plugin</a>
+                                </div>
+                                <p class="feed-slider__item-text">
+                                    Nunc placerat mi erdum mollis. Praesent pharetra, justo ut scelerisque
+                                    the mattis, leo quam aliquet congue.
+                                </p>
+                            </div>
+                            <div class="feed-slider__item-info">
+
+                                <div class="feed-slider__item-price">
+                                    <div class="feed-slider__item-money">
+                                        $20
+                                    </div>
+                                    <div class="feed-slider__item-likes">
+                                        <span class="lnr lnr-heart"></span>90
+                                    </div>
+                                    <div class="feed-slider__item-rating"></div>
+                                </div>
+                                <div class="feed-slider__item-basket">246</div>
+                            </div>
+
+                        </div>
+
+                        <div class="feed-slider__item ">
+                            <div>
+                                <div class="feed-slider__item-img"
+                                    style="background-image: url(images/content/picture.jpg);">
+
+                                </div>
+                            </div>
+                            <div class="feed-slider__item-content">
+                                <div class="feed-slider__item-title">E-commerce Shopping Cart</div>
+                                <div class="feed-slider__item-type">
+                                    <a class="feed-slider__item-name" href="#">Theme-Valley</a>
+                                    <a class="feed-slider__item-class" href="#">Plugin</a>
+                                </div>
+                                <p class="feed-slider__item-text">
+                                    Nunc placerat mi erdum mollis. Praesent pharetra, justo ut scelerisque
+                                    the mattis, leo quam aliquet congue.
+                                </p>
+                            </div>
+                            <div class="feed-slider__item-info">
+
+                                <div class="feed-slider__item-price">
+                                    <div class="feed-slider__item-money">
+                                        $20
+                                    </div>
+                                    <div class="feed-slider__item-likes">
+                                        <span class="lnr lnr-heart"></span>90
+                                    </div>
+                                    <div class="feed-slider__item-rating"></div>
+                                </div>
+                                <div class="feed-slider__item-basket">246</div>
+                            </div>
+
+                        </div>
+
+                        <div class="feed-slider__item ">
+                            <div>
+                                <div class="feed-slider__item-img"
+                                    style="background-image: url(images/content/picture.jpg);">
+
+                                </div>
+                            </div>
+                            <div class="feed-slider__item-content">
+                                <div class="feed-slider__item-title">E-commerce Shopping Cart</div>
+                                <div class="feed-slider__item-type">
+                                    <a class="feed-slider__item-name" href="#">Theme-Valley</a>
+                                    <a class="feed-slider__item-class" href="#">Plugin</a>
+                                </div>
+                                <p class="feed-slider__item-text">
+                                    Nunc placerat mi erdum mollis. Praesent pharetra, justo ut scelerisque
+                                    the mattis, leo quam aliquet congue.
+                                </p>
+                            </div>
+                            <div class="feed-slider__item-info">
+
+                                <div class="feed-slider__item-price">
+                                    <div class="feed-slider__item-money">
+                                        $20
+                                    </div>
+                                    <div class="feed-slider__item-likes">
+                                        <span class="lnr lnr-heart"></span>90
+                                    </div>
+                                    <div class="feed-slider__item-rating"></div>
+                                </div>
+                                <div class="feed-slider__item-basket">246</div>
+                            </div>
+
+                        </div>
+
+                        <div class="feed-slider__item ">
+                            <div>
+                                <div class="feed-slider__item-img"
+                                    style="background-image: url(images/content/picture.jpg);">
+
+                                </div>
+                            </div>
+                            <div class="feed-slider__item-content">
+                                <div class="feed-slider__item-title">E-commerce Shopping Cart</div>
+                                <div class="feed-slider__item-type">
+                                    <a class="feed-slider__item-name" href="#">Theme-Valley</a>
+                                    <a class="feed-slider__item-class" href="#">Plugin</a>
+                                </div>
+                                <p class="feed-slider__item-text">
+                                    Nunc placerat mi erdum mollis. Praesent pharetra, justo ut scelerisque
+                                    the mattis, leo quam aliquet congue.
+                                </p>
+                            </div>
+                            <div class="feed-slider__item-info">
+
+                                <div class="feed-slider__item-price">
+                                    <div class="feed-slider__item-money">
+                                        $20
+                                    </div>
+                                    <div class="feed-slider__item-likes">
+                                        <span class="lnr lnr-heart"></span>90
+                                    </div>
+                                    <div class="feed-slider__item-rating"></div>
+                                </div>
+                                <div class="feed-slider__item-basket">246</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+    </section>
+    <section class="statistic">
+        <div class="container">
+            <div class="statistic__inner">
+                <div class="statistic__item">
+                    <div class="statistic__item-icon orange"><span class="lnr lnr-briefcase"></span></div>
+                    <div class="statistic__item-number orange">38,436</div>
+                    <div class="statistic__item-total">items for sale</div>
+                </div>
+                <div class="statistic__item">
+                    <div class="statistic__item-icon blue"><span class="lnr lnr-cloud-download"></span></div>
+                    <div class="statistic__item-number blue">3,736</div>
+                    <div class="statistic__item-total">total sales</div>
+                </div>
+                <div class="statistic__item">
+                    <div class="statistic__item-icon green"><span class="lnr lnr-smile"></span></div>
+                    <div class="statistic__item-number green">2,736</div>
+                    <div class="statistic__item-total">happy customers</div>
+                </div>
+                <div class="statistic__item">
+                    <div class="statistic__item-icon rose"><span class="lnr lnr-users"></span></span></div>
+                    <div class="statistic__item-number rose">25,736</div>
+                    <div class="statistic__item-total">members</div>
+                </div>
+
+
+
+            </div>
+        </div>
+    </section>
+    <section class="choose">
+        <div class="container">
+            <div class="choose__inner">
+                <div class="choose__title head">Why Choose <span>MartPlace</span></div>
+                <div class="choose__subtitle subhead">Laborum dolo rumes fugats untras. Etharums ser quidem rerum
+                    facilis
+                    dolores
+                    nemis omnis fugats. Lid est laborum dolo rumes fugats untras.</div>
+                <div class="choose__box">
+                    <div class="choose__box-item">
+
+                        <span class="lnr lnr-license"></span>
+                        <div class="choose__box-title">One Time Payment</div>
+                        <p class="choose__box-text">Nunc placerat mi id nisi interdum mollis. Praesent pharetra, justo
+                            ut
+                            scelerisque
+                            the mattis, leo quam aliquet diam
+                            congue is laoreet elit metus.
+                        </p>
+
+
+                    </div>
+                    <div class="choose__box-item">
+
+                        <span class="lnr lnr-magic-wand"></span>
+                        <div class="choose__box-title">One Time Payment</div>
+                        <p class="choose__box-text">Nunc placerat mi id nisi interdum mollis. Praesent pharetra, justo
+                            ut
+                            scelerisque
+                            the mattis, leo quam aliquet diam
+                            congue is laoreet elit metus.
+                        </p>
+
+
+                    </div>
+                    <div class="choose__box-item">
+
+                        <span class="lnr lnr-lock"></span>
+                        <div class="choose__box-title">One Time Payment</div>
+                        <p class="choose__box-text">Nunc placerat mi id nisi interdum mollis. Praesent pharetra, justo
+                            ut
+                            scelerisque
+                            the mattis, leo quam aliquet diam
+                            congue is laoreet elit metus.
+                        </p>
+
+
+                    </div>
+                    <div class="choose__box-item">
+
+                        <span class="lnr lnr-chart-bars"></span>
+                        <div class="choose__box-title">One Time Payment</div>
+                        <p class="choose__box-text">Nunc placerat mi id nisi interdum mollis. Praesent pharetra, justo
+                            ut
+                            scelerisque
+                            the mattis, leo quam aliquet diam
+                            congue is laoreet elit metus.
+                        </p>
+
+
+                    </div>
+                    <div class="choose__box-item">
+
+                        <span class="lnr lnr-leaf"></span>
+                        <div class="choose__box-title">One Time Payment</div>
+                        <p class="choose__box-text">Nunc placerat mi id nisi interdum mollis. Praesent pharetra, justo
+                            ut
+                            scelerisque
+                            the mattis, leo quam aliquet diam
+                            congue is laoreet elit metus.
+                        </p>
+
+
+                    </div>
+                    <div class="choose__box-item">
+
+                        <span class="lnr lnr-phone"></span>
+                        <div class="choose__box-title">One Time Payment</div>
+                        <p class="choose__box-text">Nunc placerat mi id nisi interdum mollis. Praesent pharetra, justo
+                            ut
+                            scelerisque
+                            the mattis, leo quam aliquet diam
+                            congue is laoreet elit metus.
+                        </p>
+
+
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <section class="action">
+        <div class="container__fluid">
+            <div class="action__inner">
+                <div class="action__box">
+                    <div class="action__item action__item-bgblue"
+                        style="background-image: url(images/icons/bgblue.png);">
+                        <div class="action__item-logo">
+                            <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+                                width="120px" height="101px">
+                                <path fill-rule="evenodd" fill="rgb(255, 255, 255)"
+                                    d="M109.953,75.231 L75.969,75.231 L79.381,85.470 C82.609,86.308 85.001,89.244 85.001,92.731 L85.001,95.231 L92.501,95.231 C93.881,95.231 95.001,96.351 95.001,97.732 C95.001,99.113 93.881,100.232 92.501,100.232 L81.090,100.232 L38.911,100.232 L38.911,100.232 L27.500,100.232 C26.119,100.232 25.000,99.113 25.000,97.732 C25.000,96.351 26.119,95.231 27.500,95.231 L35.000,95.231 L35.000,92.731 C35.000,89.244 37.390,86.308 40.619,85.470 L44.031,75.231 L10.047,75.231 C4.507,75.231 -0.000,70.724 -0.000,65.185 L-0.000,10.278 C-0.000,4.739 4.507,0.233 10.047,0.233 L109.953,0.233 C115.493,0.233 120.000,4.739 120.000,10.278 L120.000,65.185 C120.000,70.724 115.493,75.231 109.953,75.231 ZM42.500,90.231 C41.121,90.231 40.000,91.352 40.000,92.731 L40.000,95.231 L80.001,95.231 L80.001,92.731 C80.001,91.352 78.879,90.231 77.500,90.231 L42.500,90.231 ZM74.031,85.231 L70.698,75.231 L49.302,75.231 L45.969,85.231 L74.031,85.231 ZM115.000,15.232 L20.431,15.232 C19.051,15.232 17.931,14.113 17.931,12.732 C17.931,11.351 19.051,10.231 20.431,10.231 L114.997,10.231 C114.971,7.471 112.720,5.232 109.953,5.232 L10.047,5.232 C7.264,5.232 5.000,7.496 5.000,10.278 L5.000,57.732 L99.969,57.732 C101.350,57.732 102.469,58.850 102.469,60.232 C102.469,61.612 101.350,62.732 99.969,62.732 L5.000,62.732 L5.000,65.185 C5.000,67.967 7.264,70.232 10.047,70.232 L47.500,70.232 L72.500,70.232 L109.953,70.232 C112.736,70.232 115.000,67.967 115.000,65.185 L115.000,15.232 ZM108.245,62.732 L107.188,62.732 C105.807,62.732 104.688,61.613 104.688,60.232 C104.688,58.850 105.807,57.732 107.188,57.732 L108.245,57.732 C109.626,57.732 110.745,58.850 110.745,60.232 C110.745,61.612 109.626,62.732 108.245,62.732 ZM74.588,26.034 L71.262,26.018 L70.783,29.803 L69.183,42.427 C69.016,43.743 67.852,44.688 66.546,44.598 L66.546,44.604 L47.483,43.335 C46.311,43.257 45.383,42.383 45.191,41.275 L45.188,41.275 L42.942,28.678 C42.705,27.318 43.614,26.024 44.973,25.787 C45.118,25.762 45.261,25.749 45.403,25.749 L45.403,25.748 L58.313,25.748 C59.694,25.748 60.814,26.867 60.814,28.248 C60.814,29.628 59.694,30.747 58.313,30.747 L48.386,30.747 L49.766,38.486 L64.537,39.469 L65.842,29.178 L66.599,23.206 C66.753,21.973 67.806,21.022 69.079,21.028 L74.608,21.055 C75.983,21.059 77.093,22.178 77.087,23.554 C77.082,24.928 75.963,26.039 74.588,26.034 ZM51.418,46.936 C52.795,46.936 53.917,48.060 53.918,49.437 C53.918,50.813 52.795,51.936 51.418,51.936 C50.041,51.936 48.918,50.813 48.918,49.437 C48.918,48.060 50.041,46.936 51.418,46.936 ZM64.162,46.936 C65.539,46.936 66.662,48.060 66.662,49.437 C66.662,50.813 65.539,51.936 64.162,51.936 C62.786,51.936 61.663,50.813 61.663,49.437 C61.663,48.060 62.786,46.936 64.162,46.936 ZM12.765,15.233 L11.642,15.233 C10.262,15.233 9.142,14.113 9.142,12.732 C9.142,11.351 10.262,10.232 11.642,10.232 L12.765,10.232 C14.146,10.232 15.265,11.351 15.265,12.732 C15.265,14.113 14.146,15.233 12.765,15.233 Z" />
+                            </svg>
+                        </div>
+                        <div class="action__item-title">Sell Your Products</div>
+                        <div class="action__item-subtitle">Nunc placerat mi id nisi interdum mollis. Praesent pharetra,
+                            justo ut scelerisque
+                            the mattis, leo quam aliquet diamcongue is laoreet elit metus.</div>
+                        <a class="action__item-link action__item-link-bg" href="#">Become an Author</a>
+                    </div>
+
+                    <div class="action__item action__item-bgviolet"
+                        style="background-image: url(images/icons/bgviolet.png);">
+                        <div class="action__item-logo">
+                            <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+                                width="100px" height="100px">
+                                <path fill-rule="evenodd" fill="rgb(255, 255, 255)"
+                                    d="M93.636,74.341 C93.483,74.616 93.276,74.840 93.037,75.013 L88.289,79.765 L99.308,90.792 C100.122,91.607 100.122,92.928 99.308,93.742 L93.668,99.386 C93.277,99.777 92.747,99.998 92.194,99.998 C91.642,99.998 91.112,99.777 90.721,99.386 L79.703,88.359 L74.711,93.356 C74.503,93.564 74.257,93.719 73.992,93.823 C72.653,94.553 71.283,95.221 69.888,95.825 L70.787,95.825 C71.937,95.825 72.870,96.760 72.870,97.911 C72.870,99.063 71.937,99.996 70.787,99.996 L49.848,99.995 C49.839,99.995 49.831,99.996 49.822,99.996 C49.819,99.996 49.815,99.996 49.811,99.996 C49.803,99.996 49.795,99.995 49.786,99.995 L29.117,99.995 C27.967,99.995 27.034,99.063 27.034,97.910 C27.034,96.760 27.967,95.825 29.117,95.825 L29.889,95.825 C28.202,95.087 26.552,94.255 24.950,93.329 C13.429,86.673 5.175,75.877 1.708,62.928 C-1.758,49.981 -0.004,36.499 6.648,24.969 C13.299,13.439 24.087,5.178 37.025,1.710 C49.962,-1.760 63.432,-0.004 74.953,6.652 C86.358,13.242 94.578,23.915 98.101,36.706 C101.619,49.482 100.034,62.848 93.636,74.341 ZM74.316,87.852 L78.230,83.935 C78.620,83.545 79.150,83.325 79.703,83.325 C80.255,83.325 80.785,83.545 81.176,83.935 L92.194,94.963 L94.888,92.267 L83.870,81.239 C83.479,80.849 83.259,80.318 83.259,79.765 C83.259,79.213 83.479,78.682 83.870,78.290 L87.783,74.374 L69.386,69.441 L74.316,87.852 ZM72.870,10.264 C62.312,4.164 49.965,2.557 38.103,5.738 C26.241,8.918 16.352,16.489 10.257,27.054 C4.161,37.620 2.555,49.977 5.733,61.849 C8.912,73.720 16.476,83.618 27.033,89.718 C40.365,97.422 56.998,97.798 70.790,90.797 L64.427,67.032 C64.234,66.314 64.440,65.545 64.967,65.017 C65.493,64.491 66.259,64.285 66.979,64.479 L90.768,70.857 C101.758,49.328 93.948,22.443 72.870,10.264 ZM88.728,41.752 C88.548,41.799 88.366,41.823 88.188,41.823 C87.268,41.823 86.426,41.209 86.176,40.277 C82.720,27.366 72.558,17.197 59.658,13.737 C58.547,13.439 57.887,12.295 58.185,11.183 C58.482,10.071 59.625,9.411 60.736,9.709 C75.070,13.553 86.361,24.851 90.201,39.196 C90.499,40.309 89.839,41.453 88.728,41.752 ZM56.704,57.849 C55.537,59.769 53.064,60.729 49.285,60.729 C45.445,60.729 43.051,59.700 42.101,57.640 C41.666,56.689 41.448,54.808 41.448,51.996 L41.448,40.143 C41.448,39.588 41.715,39.311 42.250,39.311 L44.862,39.311 C45.317,39.311 45.544,39.588 45.544,40.143 L45.544,52.887 C45.544,54.451 45.752,55.521 46.167,56.095 C46.721,56.887 47.840,57.283 49.522,57.283 C51.342,57.283 52.510,56.906 53.024,56.154 C53.459,55.541 53.677,54.472 53.677,52.947 L53.677,40.143 C53.677,39.588 53.944,39.311 54.478,39.311 L56.882,39.311 C57.357,39.311 57.595,39.589 57.595,40.143 L57.595,51.936 C57.595,53.520 57.536,54.748 57.417,55.620 C57.298,56.491 57.061,57.235 56.704,57.849 ZM52.916,12.570 C52.863,12.570 52.811,12.567 52.757,12.563 C52.253,12.526 51.727,12.497 51.196,12.479 C50.046,12.438 49.145,11.473 49.186,10.322 C49.225,9.172 50.185,8.270 51.340,8.311 C51.927,8.330 52.509,8.363 53.069,8.404 C54.217,8.490 55.077,9.491 54.991,10.640 C54.909,11.735 53.995,12.570 52.916,12.570 ZM41.719,88.799 C41.470,89.729 40.627,90.344 39.708,90.344 C39.529,90.344 39.348,90.322 39.167,90.273 C24.833,86.428 13.543,75.129 9.702,60.785 C9.404,59.673 10.064,58.529 11.176,58.230 C12.287,57.932 13.429,58.593 13.727,59.705 C17.184,72.615 27.345,82.785 40.246,86.244 C41.357,86.543 42.017,87.686 41.719,88.799 ZM34.706,50.942 C35.330,51.723 35.641,52.818 35.641,54.224 C35.641,57.036 34.642,58.839 32.644,59.630 C31.495,60.086 29.477,60.314 26.588,60.314 L23.293,60.314 C22.225,60.314 21.438,60.066 20.934,59.571 C20.429,59.076 20.177,58.274 20.177,57.165 L20.177,42.610 C20.177,40.430 21.216,39.342 23.294,39.342 L26.766,39.342 C27.894,39.342 28.973,39.402 30.002,39.520 C31.704,39.697 32.960,40.198 33.771,41.020 C34.583,41.841 34.988,43.016 34.988,44.541 C34.988,45.826 34.741,46.857 34.246,47.630 C33.752,48.401 32.970,48.967 31.901,49.323 C33.148,49.620 34.083,50.159 34.706,50.942 ZM30.432,43.604 C30.145,43.257 29.724,42.996 29.170,42.816 C28.735,42.698 28.082,42.638 27.211,42.638 L25.164,42.638 C24.570,42.638 24.273,42.996 24.273,43.707 L24.273,43.707 L24.273,47.867 L27.004,47.867 C28.270,47.867 29.111,47.777 29.526,47.599 C30.417,47.223 30.862,46.450 30.862,45.282 C30.862,44.509 30.718,43.950 30.432,43.604 ZM29.942,51.432 C29.428,51.234 28.507,51.134 27.181,51.134 L24.273,51.134 L24.273,55.768 C24.273,56.165 24.357,56.453 24.525,56.631 C24.693,56.808 24.985,56.898 25.401,56.898 L27.597,56.898 C28.725,56.898 29.537,56.798 30.031,56.601 C30.981,56.225 31.456,55.303 31.456,53.837 C31.456,52.649 30.951,51.848 29.942,51.432 ZM47.146,87.418 C47.654,87.456 48.179,87.484 48.707,87.502 C49.857,87.542 50.757,88.507 50.718,89.657 C50.679,90.784 49.755,91.672 48.637,91.672 C48.613,91.672 48.589,91.671 48.565,91.671 C47.980,91.650 47.398,91.620 46.834,91.577 C45.687,91.490 44.827,90.490 44.913,89.342 C44.999,88.194 45.998,87.331 47.146,87.418 ZM62.186,39.370 C62.404,39.291 63.512,39.251 65.510,39.251 C65.984,39.251 66.380,39.529 66.697,40.083 C68.597,43.233 70.002,45.688 70.912,47.451 C71.664,46.005 73.079,43.569 75.156,40.143 C75.493,39.548 75.899,39.251 76.373,39.251 C78.075,39.251 79.074,39.301 79.371,39.401 C79.609,39.499 79.727,39.668 79.728,39.905 C79.728,40.124 79.609,40.440 79.372,40.856 L72.841,51.490 L72.841,59.452 C72.841,59.729 72.762,59.947 72.604,60.105 C72.445,60.265 72.248,60.343 72.010,60.343 L69.517,60.343 C68.982,60.343 68.715,60.046 68.715,59.452 L68.716,59.452 L68.716,51.610 L62.186,40.915 C61.928,40.479 61.800,40.152 61.800,39.934 C61.800,39.678 61.928,39.488 62.186,39.370 Z" />
+                            </svg>
+                        </div>
+                        <div class="action__item-title">Sell Your Products</div>
+                        <div class="action__item-subtitle">Nunc placerat mi id nisi interdum mollis. Praesent pharetra,
+                            justo ut scelerisque
+                            the mattis, leo quam aliquet diamcongue is laoreet elit metus.</div>
+                        <a class="action__item-link action__item-link-violet" href="#">Start Shopping</a>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+    <section class="feedback">
+        <div class="container">
+            <div class="feedback__inner">
+                <div class="feedback__title head">Our Clients <span>Feedback</span></div>
+                <div class="feedback__subtitle subhead">
+                    Laborum dolo rumes fugats untras. Etharums ser quidem rerum facilis dolores nemis omnis fugats. Lid
+                    est laborum dolo rumes fugats untras.
+                </div>
+                <div class="feedback__box">
+                    <div class="feedback__item">
+                        <div class="feedback__item-user">
+
+                            <a class="feedback__item-img"
+                                style="background-image: url(images/content/feedback-user.jpg);" href="#"></a>
+                            <a class="feedback__item-name" href="#">
+                                Taofiqul Hakim
+                                <span>
+                                    Product Designe
+                                </span>
+                            </a>
+                            <span class="lnr lnr-bubble"></span>
+                        </div>
+                        <p class="feedback__item-text">
+                            Nunc placerat mi id nisi interdum mollis. Praesent pharetra, justo ut scelerisque the
+                            mattis, leo quam aliquet diam congue is the laoreet elit metus. Nunc placerat is mi id
+                            nisi interdum is mollis. Praesent the pharetra, justo ut scelerisque.
+                        </p>
+                    </div>
+                    <div class="feedback__item">
+                        <div class="feedback__item-user">
+
+                            <a class="feedback__item-img"
+                                style="background-image: url(images/content/feedback-user2.jpg);" href="#"></a>
+                            <a class="feedback__item-name" href="#">
+                                Taofiqul Hakim
+                                <span>
+                                    Product Designe
+                                </span>
+                            </a>
+                            <span class="lnr lnr-bubble"></span>
+                        </div>
+                        <p class="feedback__item-text">
+                            Nunc placerat mi id nisi interdum mollis. Praesent pharetra, justo ut scelerisque the
+                            mattis, leo quam aliquet diam congue is the laoreet elit metus. Nunc placerat is mi id
+                            nisi interdum is mollis. Praesent the pharetra, justo ut scelerisque.
+                        </p>
+                    </div>
+
+
+                </div>
+
+                <a class="feedback__link" href="#">View All Reviews</a>
+            </div>
+        </div>
+    </section>
+    <section class="news">
+        <div class="container">
+            <div class="news__inner">
+                <div class="news__title head">Latest <span>News</span></div>
+                <div class="news__subtitle subhead">
+                    Laborum dolo rumes fugats untras. Etharums ser quidem rerum facilis dolores nemis omnis fugats. Lid
+                    est laborum dolo rumes fugats untras.
+                </div>
+                <div class="news__items-box">
+                    <div class="news__item">
+                        <a class="news__item-link" style="background-image: url(images/content/news-bg.jpg);"
+                            href="#"></a>
+                        <div class="news__item-descr">
+                            <span class="news__item-title">Web Design Trends in 2017</span>
+                            <p class="news__item-text">Nunc placerat mi id nisi interdum mollis. Praesent pharetra,
+                                justo ut scelerisque
+                                the mattis, leo quam aliquet congue.
+                            </p>
+                        </div>
+                        <div class="news__item-info">
+                            <a class="news__item-data" href="#"><span class="lnr lnr-clock"></span>24 Feb 2017</a>
+                            <!-- <span class="news__item-stick"></span> -->
+                            <div class="news__item-statistic">
+                                <a class="news__item-msg" href="#"><span class="lnr lnr-bubble"></span>45</a>
+                                <a class="news__item-search" href="#"><span class="lnr lnr-eye"></span>345</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="news__item">
+                        <a class="news__item-link" style="background-image: url(images/content/news-bg.jpg);"
+                            href="#"></a>
+                        <div class="news__item-descr">
+                            <span class="news__item-title">Web Design Trends in 2017</span>
+                            <p class="news__item-text">Nunc placerat mi id nisi interdum mollis. Praesent pharetra,
+                                justo ut scelerisque
+                                the mattis, leo quam aliquet congue.
+                            </p>
+                        </div>
+                        <div class="news__item-info">
+                            <a class="news__item-data" href="#"><span class="lnr lnr-clock"></span>24 Feb 2017</a>
+                            <!-- <span class="news__item-stick"></span> -->
+                            <div class="news__item-statistic">
+                                <a class="news__item-msg" href="#"><span class="lnr lnr-bubble"></span>45</a>
+                                <a class="news__item-search" href="#"><span class="lnr lnr-eye"></span>345</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="news__item">
+                        <a class="news__item-link" style="background-image: url(images/content/news-bg.jpg);"
+                            href="#"></a>
+                        <div class="news__item-descr">
+                            <span class="news__item-title">Web Design Trends in 2017</span>
+                            <p class="news__item-text">Nunc placerat mi id nisi interdum mollis. Praesent pharetra,
+                                justo ut scelerisque
+                                the mattis, leo quam aliquet congue.
+                            </p>
+                        </div>
+                        <div class="news__item-info">
+                            <a class="news__item-data" href="#"><span class="lnr lnr-clock"></span>24 Feb 2017</a>
+                            <!-- <span class="news__item-stick"></span> -->
+                            <div class="news__item-statistic">
+                                <a class="news__item-msg" href="#"><span class="lnr lnr-bubble"></span>45</a>
+                                <a class="news__item-search" href="#"><span class="lnr lnr-eye"></span>345</a>
+                            </div>
+                        </div>
+                    </div>
+
+
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <section class="reasons">
+        <div class="container">
+            <div class="reasons__inner">
+                <div class="reasons__item">
+                    <div class="reasons__item-svg">
+                        <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="150px"
+                            height="120px">
+                            <image x="0px" y="0px" width="150px" height="120px"
+                                xlink:href="data:img/png;base64,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" />
+                        </svg>
+                    </div>
+                    <div class="reasons__item-text">30 Days Money Back
+                        <a class="reasons__item-support" href="#">
+                            Guarantee
+                        </a>
+                    </div>
+
+                </div>
+                <span class="reasons__item-border"></span>
+                <div class="reasons__item">
+                    <div class="reasons__item-svg">
+                        <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="155px"
+                            height="117px">
+                            <image x="0px" y="0px" width="155px" height="117px"
+                                xlink:href="data:img/png;base64,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" />
+                        </svg>
+                    </div>
+                    <div class="reasons__item-text">Fast and Friendly
+                        <a class="reasons__item-support" href="#">
+                            Support
+                        </a>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="join">
+        <div class="container">
+            <div class="join__inner">
+                <div class="join__title">Ready to Join Our Marketplace!</div>
+                <div class="join__subtitle">Over 25,000 designers and developers trust the MartPlace.</div>
+                <a class="join__link" href="#">Join Us Today</a>
+            </div>
+        </div>
+    </section>
+    <section class="footer">
+        <div class="container">
+            <div class="footer__inner">
+                <div class="footer__top">
+                    <div class="footer__col-about">
+                        <div class="footer__col-logo">
+                            <a class="footer__col-img" style="background-image: url(images/footer-logo.png);" href="#">
+
+                            </a>
+                        </div>
+                        <p class="footer__col-text">
+                            Nunc placerat mi id nisi interdum they mollis. Praesent pharetra, justo ut scel erisque the
+                            mattis, leo quam.
+                        </p>
+                        <div class="footer__col-location">
+                            <a class="footer__col-phone" href="tel: 67898752235">
+                                <span class="lnr lnr-phone-handset">Phone:
+                                    +6789-875-2235
+                                </span>
+                            </a>
+                            <a class="footer__col-mail" href="mailto:information@jetro.com">
+                                <span class="lnr lnr-envelope">
+                                    support@aazztech.com
+                                </span>
+                            </a>
+                            <div class="footer__col-adress">
+                                <span class="lnr lnr-map-marker">
+                                    
+                                </span>
+                                <p class="footer__col-street"> New Hampshire Avenue
+                                    Northwest #100, New York-2573> 
+                                </p>
+                              
+                            </div>
+                        </div>
+
+                    </div>
+
+
+                    <div class="footer__col-menu">
+                        <div class="footer__col-title">
+                            Our Company
+                        </div>
+                        <ul class="footer__col-menu">
+                            <li><a class="footer__col-menu-link" href="#">About Us</a></li>
+                            <li><a class="footer__col-menu-link"  href="#">How It Work</a></li>
+                            <li><a class="footer__col-menu-link" href="#">Affiliates</a></li>
+                            <li><a class="footer__col-menu-link" href="#">Testimonials</a></li>
+                            <li><a class="footer__col-menu-link" href="#">Contact Us</a></li>
+                            <li><a class="footer__col-menu-link" href="#">Copyright Notice</a></li>
+                            <li><a class="footer__col-menu-link" href="#">Blog</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer__col-menu">
+                        <div class="footer__col-title">
+                            Help Support
+                        </div>
+                        <ul class="footer__col-menu">
+                            <li><a class="footer__col-menu-link" href="#">Support Forum</a></li>
+                            <li><a class="footer__col-menu-link"  href="#">Terms & Conditions</a></li>
+                            <li><a class="footer__col-menu-link" href="#">Support Policy</a></li>
+                            <li><a class="footer__col-menu-link" href="#">Refund Policy</a></li>
+                            <li><a class="footer__col-menu-link" href="#">FAQs</a></li>
+                            <li><a class="footer__col-menu-link" href="#">Buyers Faq</a></li>
+                            <li><a class="footer__col-menu-link" href="#">Sellers Faq</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer__col-contact">
+                        <div class="footer__col-title">
+                            Newsletter
+                        </div>
+                        <p class="footer__col-text">
+                            Subscribe to get the latest news, update and offer information. Don't worry, we won't send spam!
+                        </p>
+                        <form class="footer__col-form">
+                            <input type="text" placeholder="Enter email">
+                            <button type="submit">Submit</button>
+                        </form>
+                        <div class="footer__col-social">
+                            <a class="icon-facebook-f" href="#"></a>
+                            <a class="icon-twitter" href="#"></a>
+                            <a class="icon-google" href="#"></a>
+                            <a class="icon-pinterest" href="#"></a>
+                            <a class="icon-linkedin" href="#"></a>
+                            <a class="icon-dribbble" href="#"></a>
+                        </div>
+
+                    </div>
+                </div>
+              
+            </div>
+        </div>
+    </section>
+    <section class="footer__copy">
+        <div class="container">
+            ©2017 <span>MartPlace</span>. All rights reserved. Created by <span>AazzTech</span>
+        </div>
+    </section>
+
+
+
+
+
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="js/slick.min.js"></script>
     <script src="js/libs.min.js"></script>
     <script src="js/main.js"></script>
 </body>

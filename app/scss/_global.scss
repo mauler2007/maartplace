@@ -16,21 +16,32 @@ a{
 }
 
 ul,
-li{
+li,
+p{
     margin: 0;
     padding: 0;
     list-style: none;
 }
 
-.body {
-    font-family: 'Quicksand-regular', sans-serif;
+body {
+    font-family: 'Quicksand';
     font-size: 15px;
     line-height: 24px;
-
 }
 
 .container  {
     max-width: 1170px ;
     margin: 0 auto;
     padding: 0 15px;
+    
+}
+.container-fluid{
+    min-width: 100%;
+    margin: 0 auto;
+}
+
+@media(min-width: 720px){
+    .container-fluid{
+        padding: 0 15px;
+    }
 }
